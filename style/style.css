@@ -26,5 +26,16 @@ img{
     gap: 3px;
 }
 
+/* responsive layout */
+
+@media screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+        height: auto;
+    } 
+    .box-collage{
+        grid-template-columns: 1fr;
+    }       
+}
 
 
